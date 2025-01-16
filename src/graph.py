@@ -1,25 +1,30 @@
 from src.file_reader import FileReader
 from src.project import Project
 from src.student import Student
+from src.output import Output
+from copy import deepcopy
+from random import shuffle
 
 
 class Graph ():
-    def __init__(self):
+    def __init__(self, message: Output):
         self.INPUT_PATH = "input.txt"
         self.N_STUDENTS = 200
         self.N_PROJECTS = 55
+        self.messager = message
 
         self.reader = FileReader() 
-
+        self.original_students = dict()
+        self.original_projects = dict()
         self.students = dict()
         self.projects = dict()
-
         self.studentsNotAssigned = list()
 
         self.student_matching = dict()
         self.project_matching = dict()
 
     def addStudentInProject(self, student: Student, project: Project, studentToRemove: Student = None):
+        self.messager.change(student, project, studentToRemove)
         if (studentToRemove is not None):
             self.studentsNotAssigned.add(studentToRemove.id)
             self.project_matching[project.id] = [s for s in self.project_matching[project.id] if s.id != studentToRemove.id]
@@ -28,7 +33,6 @@ class Graph ():
             studentToRemove.project_selected = ''
             self.students[studentToRemove.id] = studentToRemove
 
-        # self.studentsNotAssigned.remove(student.id)
         self.project_matching[project.id].append(student)
         self.student_matching[student.id] = project.id
         student.project_selected = project.id
@@ -45,21 +49,28 @@ class Graph ():
                 project, vacancies, min_grade = self.reader.read_project(next(file))
                 self.project_matching[project] = list()
                 self.projects[project] = Project(project, vacancies, min_grade)
+                self.original_projects[project] = Project(project, vacancies, min_grade)
             for _ in range(self.N_STUDENTS):
                 student, preferences, grade = self.reader.read_student(next(file)) 
                 self.student_matching[student]  = ''
                 self.students[student] = Student(student, preferences, grade)
+                self.original_students[student] = Student(student, preferences, grade)
 
     def reset_graph(self):
         for project in self.projects:
             self.project_matching[project] = list()
-            self.projects[project].selected_students = list()
+            self.projects[project] = deepcopy(self.original_projects[project])
         for student in self.students:
             self.student_matching[student]  = ''
             self.students[student].project_selected = ''
+            self.students[student] = deepcopy(self.original_students[student])
             
     def GaleShapley(self):
-        self.studentsNotAssigned = set(self.student_matching.keys())
+        self.studentsNotAssigned = list(self.student_matching.keys())
+
+        # self.studentsNotAssigned  = sorted(self.studentsNotAssigned, key=lambda x: self.students[x].grade)
+        shuffle(self.studentsNotAssigned)
+
         i=0
         while len(self.studentsNotAssigned) > 0:
             student = self.studentsNotAssigned.pop()
@@ -97,4 +108,4 @@ class Graph ():
             i+=1
     
     def getStudentsSelectedQuantity(self):
-        return sum([len(s) for s in self.project_matching])
+        return sum([len(s) for (s) in self.project_matching.values()])
