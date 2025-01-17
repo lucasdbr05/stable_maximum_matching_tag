@@ -23,6 +23,7 @@ class Graph ():
         self.student_matching = dict()
         self.project_matching = dict()
 
+    # Emparelho um novo estudante a um projeto e, quando necessário, faço a remoção de um estudante desse projeto
     def addStudentInProject(self, student: Student, project: Project, studentToRemove: Student = None):
         self.messager.change(student, project, studentToRemove)
         if (studentToRemove is not None):
@@ -30,7 +31,6 @@ class Graph ():
                 self.studentsNotAssigned.append(studentToRemove.id)
             self.project_matching[project.id] = [s for s in self.project_matching[project.id] if s.id != studentToRemove.id]
             self.student_matching[studentToRemove.id] = ''
-            # studentToRemove.preferences.remove(project.id)
             studentToRemove.project_selected = ''
             self.students[studentToRemove.id] = studentToRemove
 
@@ -43,7 +43,7 @@ class Graph ():
         project.selected_students = list(self.project_matching[project.id])
         self.projects[project.id] = project
 
-
+    # Faz a leitura do arquivo de input e monta o grafo inicialmente
     def build_graph(self):
         with open(self.INPUT_PATH, 'r') as file:
             for _ in range(self.N_PROJECTS):
@@ -58,6 +58,7 @@ class Graph ():
                 self.original_students[student] = Student(student, preferences, grade)
             self.studentsNotAssigned = list(self.student_matching.keys())
 
+    # Remonta o grafo para realizar o algoritmo em uma nova iteração
     def reset_graph(self):
         for project in self.projects:
             self.project_matching[project] = list()
@@ -68,8 +69,8 @@ class Graph ():
         self.studentsNotAssigned = list(self.student_matching.keys())
         shuffle(self.studentsNotAssigned)
             
+    # Utilizo uma o algoritmo de Gale-Shapley para realizar os emparelhamentos
     def GaleShapley(self):
-
         while len(self.studentsNotAssigned) > 0:
             student = self.studentsNotAssigned.pop()
             student = self.students[student]
@@ -77,26 +78,30 @@ class Graph ():
             project = student.preferences.pop(0)
             project = self.projects[project]
 
-            if(self.student_matching[student.id]): 
-                continue
-
-            if(student.grade < project.min_grade): 
+            # Caso o estudante não tenha nota suficiente, não o emparelho com o projeto
+            if(student.grade < project.min_grade):  
+                # Caso ele ainda tenha projetos para tentar, adiciono-o novamente na lista de não atribuidos
                 if(len(student.preferences) > 0):
                     self.studentsNotAssigned.append(student.id)
                 continue
             flag = False
             
+            # Se o projeto sem vagas sobrando, adiciono-o na lista de estudantes do projeto
             if len(self.project_matching[project.id]) < project.vacancies:
                 self.addStudentInProject(student, project)
                 flag = True
                 continue
-
+            # Caso contrario, checo se posso adicicioná-lo no lugar de outro estudante
             elif len(self.project_matching[project.id]) == project.vacancies:
+                # Procuro o estudate com a menor nota entre os estudantes do projeto
                 for currentSelectedStudent in self.project_matching[project.id]: 
+                    # Se ele possuir uma nota melhor, faço a troca desses estudantes 
                     if (student.grade > currentSelectedStudent.grade):
                         self.addStudentInProject(student, project, currentSelectedStudent)
                         flag = True
                         break    
+                    # Se as notas forem iguais, mas ele preferir mais o projeto  do que o estudante de pior nota,
+                    # faço a toca entre eles
                     elif (
                         (student.grade == currentSelectedStudent.grade) and
                         (student.preferences_list.index(project.id) < currentSelectedStudent.preferences_list.index(project.id))
@@ -105,10 +110,13 @@ class Graph ():
                         flag = True
                         break    
             
+            # Caso não entrou em um projeto nesse momento, mas ainda tem projetos para tentar entrar,
+            # adiciono ele novamente na lista de não atribuidos
             if (not flag):
                 if (len(student.preferences)>0):
                     self.studentsNotAssigned.append(student.id)
 
     
+    # Conta quantos estudantes se tem no total dos emparelhamentos
     def getStudentsSelectedQuantity(self):
         return sum([len(s) for (s) in self.project_matching.values()])
