@@ -26,10 +26,11 @@ class Graph ():
     def addStudentInProject(self, student: Student, project: Project, studentToRemove: Student = None):
         self.messager.change(student, project, studentToRemove)
         if (studentToRemove is not None):
-            self.studentsNotAssigned.add(studentToRemove.id)
+            if len(studentToRemove.preferences) > 0:
+                self.studentsNotAssigned.append(studentToRemove.id)
             self.project_matching[project.id] = [s for s in self.project_matching[project.id] if s.id != studentToRemove.id]
             self.student_matching[studentToRemove.id] = ''
-            studentToRemove.preferences.remove(project.id)
+            # studentToRemove.preferences.remove(project.id)
             studentToRemove.project_selected = ''
             self.students[studentToRemove.id] = studentToRemove
 
@@ -55,6 +56,7 @@ class Graph ():
                 self.student_matching[student]  = ''
                 self.students[student] = Student(student, preferences, grade)
                 self.original_students[student] = Student(student, preferences, grade)
+            self.studentsNotAssigned = list(self.student_matching.keys())
 
     def reset_graph(self):
         for project in self.projects:
@@ -62,50 +64,51 @@ class Graph ():
             self.projects[project] = deepcopy(self.original_projects[project])
         for student in self.students:
             self.student_matching[student]  = ''
-            self.students[student].project_selected = ''
             self.students[student] = deepcopy(self.original_students[student])
+        self.studentsNotAssigned = list(self.student_matching.keys())
+        shuffle(self.studentsNotAssigned)
             
     def GaleShapley(self):
-        self.studentsNotAssigned = list(self.student_matching.keys())
 
-        # self.studentsNotAssigned  = sorted(self.studentsNotAssigned, key=lambda x: self.students[x].grade)
-        shuffle(self.studentsNotAssigned)
-
-        i=0
         while len(self.studentsNotAssigned) > 0:
             student = self.studentsNotAssigned.pop()
-            # print(f"{i+1}-th mathcing try")
-        
             student = self.students[student]
-            for project in student.preferences:
-                project = self.projects[project]
-                if(self.student_matching[student.id]): continue
 
-                if(student.grade < project.min_grade): continue
-                
-                if len(self.project_matching[project.id]) < project.vacancies:
-                    self.addStudentInProject(student, project)
-                    # print(f'{project.id} is no longer free and is tentatively engaged to {student.id}!')
-                    break 
-                elif len(self.project_matching[project.id]) == project.min_grade:
-                    flag = False
-                    for currentSelectedStudent in self.project_matching[project.id]: 
-                        if (student.grade > currentSelectedStudent.grade):
-                            self.addStudentInProject(student, project, currentSelectedStudent)
-                            # print(f'{project.id} was earlier engaged to {currentSelectedStudent.id} but now is engaged to {student.id}! ')
-                            flag = True
-                            break    
-                        elif (
-                            (student.grade == currentSelectedStudent.grade) and
-                            (student.preferences.index(project.id) < currentSelectedStudent.preferences.index(project.id))
-                        ):
-                            self.addStudentInProject(student, project, currentSelectedStudent)
-                            # print(f'{project} was earlier engaged to {currentSelectedStudent} but now is engaged to {student}! ')
-                            flag = True
-                            break    
-                    if(flag): break 
+            project = student.preferences.pop(0)
+            project = self.projects[project]
 
-            i+=1
+            if(self.student_matching[student.id]): 
+                continue
+
+            if(student.grade < project.min_grade): 
+                if(len(student.preferences) > 0):
+                    self.studentsNotAssigned.append(student.id)
+                continue
+            flag = False
+            
+            if len(self.project_matching[project.id]) < project.vacancies:
+                self.addStudentInProject(student, project)
+                flag = True
+                continue
+
+            elif len(self.project_matching[project.id]) == project.vacancies:
+                for currentSelectedStudent in self.project_matching[project.id]: 
+                    if (student.grade > currentSelectedStudent.grade):
+                        self.addStudentInProject(student, project, currentSelectedStudent)
+                        flag = True
+                        break    
+                    elif (
+                        (student.grade == currentSelectedStudent.grade) and
+                        (student.preferences_list.index(project.id) < currentSelectedStudent.preferences_list.index(project.id))
+                    ):
+                        self.addStudentInProject(student, project, currentSelectedStudent)
+                        flag = True
+                        break    
+            
+            if (not flag):
+                if (len(student.preferences)>0):
+                    self.studentsNotAssigned.append(student.id)
+
     
     def getStudentsSelectedQuantity(self):
         return sum([len(s) for (s) in self.project_matching.values()])

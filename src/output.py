@@ -18,7 +18,7 @@ class Output():
     def change(self, assginedStudent: Student, project: Project, studentRemoved: Student = None):
         
         log= None
-        if (not studentRemoved):
+        if (studentRemoved is None):
             log = f"Student {assginedStudent.id} assigned to project {project.id}"
         else:
             log = f"Student {assginedStudent.id} assigned to project {project.id} and student {studentRemoved.id} was removed"
