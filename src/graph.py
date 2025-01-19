@@ -20,59 +20,44 @@ class Graph ():
         self.projects = dict()
         self.studentsNotAssigned = list()
 
-        self.student_matching = dict()
-        self.project_matching = dict()
-
     # Emparelho um novo estudante a um projeto e, quando necessário, faço a remoção de um estudante desse projeto
     def addStudentInProject(self, student: Student, project: Project, studentToRemove: Student = None):
         self.messager.change(student, project, studentToRemove)
         if (studentToRemove is not None):
             if len(studentToRemove.preferences) > 0:
                 self.studentsNotAssigned.append(studentToRemove.id)
-            self.project_matching[project.id] = [s for s in self.project_matching[project.id] if s.id != studentToRemove.id]
-            self.student_matching[studentToRemove.id] = ''
+            project.remove(studentToRemove.id)
             studentToRemove.project_selected = ''
-            self.students[studentToRemove.id] = studentToRemove
 
-        self.project_matching[project.id].append(student)
-        self.student_matching[student.id] = project.id
+        project.add(student)
         student.project_selected = project.id
-        self.students[student.id] = student
-
-        self.project_matching[project.id] = sorted(self.project_matching[project.id], key= lambda x: x.grade)
-        project.selected_students = list(self.project_matching[project.id])
-        self.projects[project.id] = project
 
     # Faz a leitura do arquivo de input e monta o grafo inicialmente
     def build_graph(self):
         with open(self.INPUT_PATH, 'r') as file:
             for _ in range(self.N_PROJECTS):
                 project, vacancies, min_grade = self.reader.read_project(next(file))
-                self.project_matching[project] = list()
                 self.projects[project] = Project(project, vacancies, min_grade)
                 self.original_projects[project] = Project(project, vacancies, min_grade)
             for _ in range(self.N_STUDENTS):
                 student, preferences, grade = self.reader.read_student(next(file)) 
-                self.student_matching[student]  = ''
                 self.students[student] = Student(student, preferences, grade)
                 self.original_students[student] = Student(student, preferences, grade)
-            self.studentsNotAssigned = list(self.student_matching.keys())
+            self.studentsNotAssigned = list(self.students.keys())
 
     # Remonta o grafo para realizar o algoritmo em uma nova iteração
     def reset_graph(self):
         for project in self.projects:
-            self.project_matching[project] = list()
             self.projects[project] = deepcopy(self.original_projects[project])
         for student in self.students:
-            self.student_matching[student]  = ''
             self.students[student] = deepcopy(self.original_students[student])
-        self.studentsNotAssigned = list(self.student_matching.keys())
+        self.studentsNotAssigned = list(self.students.keys())
         shuffle(self.studentsNotAssigned)
             
     # Utilizo uma o algoritmo de Gale-Shapley para realizar os emparelhamentos
     def GaleShapley(self):
         while len(self.studentsNotAssigned) > 0:
-            student = self.studentsNotAssigned.pop()
+            student = self.studentsNotAssigned.pop(0)
             student = self.students[student]
 
             project = student.preferences.pop(0)
@@ -87,14 +72,14 @@ class Graph ():
             flag = False
             
             # Se o projeto sem vagas sobrando, adiciono-o na lista de estudantes do projeto
-            if len(self.project_matching[project.id]) < project.vacancies:
+            if len(project.selected_students) < project.vacancies:
                 self.addStudentInProject(student, project)
                 flag = True
                 continue
             # Caso contrario, checo se posso adicicioná-lo no lugar de outro estudante
-            elif len(self.project_matching[project.id]) == project.vacancies:
+            elif len(project.selected_students) == project.vacancies:
                 # Procuro o estudate com a menor nota entre os estudantes do projeto
-                for currentSelectedStudent in self.project_matching[project.id]: 
+                for currentSelectedStudent in project.selected_students: 
                     # Se ele possuir uma nota melhor, faço a troca desses estudantes 
                     if (student.grade > currentSelectedStudent.grade):
                         self.addStudentInProject(student, project, currentSelectedStudent)
@@ -119,4 +104,4 @@ class Graph ():
     
     # Conta quantos estudantes se tem no total dos emparelhamentos
     def getStudentsSelectedQuantity(self):
-        return sum([len(s) for (s) in self.project_matching.values()])
+        return sum([len(p.selected_students) for (p) in self.projects.values()])

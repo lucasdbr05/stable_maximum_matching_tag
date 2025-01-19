@@ -32,7 +32,7 @@ class Output():
         log = f"\nIn the final result, the maximum stable matching found was {matching_length}\n"
         self.print(log)
 
-        for(project, students) in matching.items():
-            log = f"Project {project}: {[s.id for s in students]}"
+        for(p, project) in matching.items():
+            log = f"Project {p}: {[s.id for s in project.selected_students]}"
             self.print(log)
         

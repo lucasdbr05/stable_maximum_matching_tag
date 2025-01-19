@@ -1,823 +1,698 @@
 1-th iteration
-Student A200 assigned to project P1
-Student A199 assigned to project P49
-Student A197 assigned to project P41
-Student A196 assigned to project P43
-Student A191 assigned to project P24
-Student A188 assigned to project P8
-Student A187 assigned to project P7
-Student A185 assigned to project P5
-Student A184 assigned to project P40
-Student A183 assigned to project P30
-Student A181 assigned to project P17
-Student A177 assigned to project P37
-Student A175 assigned to project P35
-Student A174 assigned to project P34
-Student A173 assigned to project P45
-Student A172 assigned to project P20
-Student A171 assigned to project P21
-Student A170 assigned to project P10
-Student A169 assigned to project P29
-Student A168 assigned to project P36
-Student A164 assigned to project P30 and student A183 was removed
-Student A183 assigned to project P5
-Student A158 assigned to project P47
-Student A157 assigned to project P21 and student A171 was removed
-Student A155 assigned to project P45 and student A173 was removed
-Student A154 assigned to project P15
-Student A151 assigned to project P14
-Student A149 assigned to project P9
-Student A148 assigned to project P28
-Student A147 assigned to project P3
-Student A144 assigned to project P22
-Student A143 assigned to project P26
-Student A142 assigned to project P26
-Student A137 assigned to project P28 and student A148 was removed
-Student A135 assigned to project P15
-Student A134 assigned to project P25
-Student A131 assigned to project P14
-Student A128 assigned to project P36
-Student A127 assigned to project P28 and student A137 was removed
-Student A117 assigned to project P7
-Student A107 assigned to project P41
-Student A106 assigned to project P40 and student A184 was removed
-Student A100 assigned to project P38
-Student A99 assigned to project P9
-Student A98 assigned to project P18
-Student A96 assigned to project P51
-Student A95 assigned to project P53
-Student A94 assigned to project P3
-Student A93 assigned to project P14 and student A151 was removed
-Student A85 assigned to project P5 and student A185 was removed
-Student A84 assigned to project P4
-Student A83 assigned to project P27
-Student A82 assigned to project P2
-Student A81 assigned to project P27
-Student A66 assigned to project P9 and student A149 was removed
-Student A64 assigned to project P30 and student A164 was removed
-Student A63 assigned to project P39
-Student A62 assigned to project P8
-Student A61 assigned to project P17 and student A181 was removed
-Student A60 assigned to project P53
-Student A43 assigned to project P14 and student A131 was removed
-Student A42 assigned to project P16
-Student A41 assigned to project P14 and student A93 was removed
-Student A35 assigned to project P5 and student A183 was removed
-Student A34 assigned to project P40 and student A106 was removed
-Student A33 assigned to project P3 and student A147 was removed
-Student A32 assigned to project P20 and student A172 was removed
-Student A31 assigned to project P12
-Student A26 assigned to project P55
-Student A24 assigned to project P10 and student A170 was removed
-Student A23 assigned to project P9 and student A99 was removed
-Student A22 assigned to project P18 and student A98 was removed
-Student A18 assigned to project P8 and student A62 was removed
+Student A1 assigned to project P1
+Student A2 assigned to project P1
+Student A6 assigned to project P40
+Student A7 assigned to project P41
 Student A8 assigned to project P6
-Student A2 assigned to project P1
-Student A1 assigned to project P50
-
-2-th iteration
-Student A48 assigned to project P26
-Student A177 assigned to project P37
-Student A128 assigned to project P36
-Student A157 assigned to project P21
-Student A2 assigned to project P1
-Student A187 assigned to project P7
-Student A164 assigned to project P30
 Student A18 assigned to project P8
 Student A22 assigned to project P18
-Student A147 assigned to project P3
-Student A142 assigned to project P26
-Student A44 assigned to project P3
-Student A99 assigned to project P9
-Student A131 assigned to project P14
-Student A132 assigned to project P20
-Student A200 assigned to project P1
-Student A10 assigned to project P43
-Student A96 assigned to project P43 and student A10 was removed
-Student A10 assigned to project P10
-Student A35 assigned to project P5
-Student A175 assigned to project P35
-Student A173 assigned to project P45
-Student A24 assigned to project P10 and student A10 was removed
-Student A144 assigned to project P22
-Student A25 assigned to project P34
-Student A55 assigned to project P24
-Student A7 assigned to project P41
-Student A32 assigned to project P2
-Student A168 assigned to project P36
-Student A63 assigned to project P39
-Student A14 assigned to project P40
-Student A27 assigned to project P41
-Student A61 assigned to project P17
-Student A93 assigned to project P14
-Student A154 assigned to project P15
-Student A174 assigned to project P34 and student A25 was removed
-Student A100 assigned to project P38
-Student A137 assigned to project P28
-Student A129 assigned to project P29
-Student A183 assigned to project P5
-Student A169 assigned to project P9
-Student A184 assigned to project P25
-Student A60 assigned to project P53
-Student A159 assigned to project P49
-Student A143 assigned to project P14 and student A131 was removed
-Student A106 assigned to project P40 and student A14 was removed
-Student A14 assigned to project P15
-Student A81 assigned to project P27
-Student A62 assigned to project P27
-Student A33 assigned to project P3 and student A147 was removed
-Student A117 assigned to project P7
-Student A135 assigned to project P15 and student A154 was removed
-Student A98 assigned to project P47
-Student A1 assigned to project P30 and student A164 was removed
-Student A66 assigned to project P9 and student A169 was removed
-Student A191 assigned to project P24 and student A55 was removed
-Student A155 assigned to project P45 and student A173 was removed
-Student A64 assigned to project P30 and student A1 was removed
-Student A1 assigned to project P50
-Student A23 assigned to project P9 and student A99 was removed
-Student A26 assigned to project P55
-Student A31 assigned to project P12
-Student A84 assigned to project P4
-Student A82 assigned to project P44
-Student A127 assigned to project P28 and student A137 was removed
-Student A188 assigned to project P8
-Student A185 assigned to project P5 and student A183 was removed
-Student A85 assigned to project P5 and student A185 was removed
-Student A8 assigned to project P6
-Student A41 assigned to project P14 and student A93 was removed
-Student A42 assigned to project P16
-Student A83 assigned to project P27 and student A62 was removed
-Student A107 assigned to project P41 and student A7 was removed
-Student A34 assigned to project P40 and student A106 was removed
-Student A197 assigned to project P41 and student A27 was removed
-Student A95 assigned to project P53
-
-3-th iteration
-Student A100 assigned to project P38
-Student A188 assigned to project P8
-Student A187 assigned to project P7
 Student A23 assigned to project P9
-Student A43 assigned to project P14
-Student A131 assigned to project P14
-Student A157 assigned to project P37
-Student A47 assigned to project P41
-Student A155 assigned to project P45
-Student A145 assigned to project P21
-Student A99 assigned to project P9
-Student A156 assigned to project P40
-Student A170 assigned to project P43
-Student A152 assigned to project P20
-Student A14 assigned to project P40 and student A156 was removed
-Student A164 assigned to project P30
-Student A17 assigned to project P18
-Student A144 assigned to project P22
-Student A135 assigned to project P15
-Student A196 assigned to project P43 and student A170 was removed
-Student A170 assigned to project P10
-Student A34 assigned to project P4
-Student A181 assigned to project P17
-Student A48 assigned to project P26
-Student A83 assigned to project P27
-Student A26 assigned to project P40 and student A14 was removed
-Student A14 assigned to project P15
-Student A60 assigned to project P53
-Student A200 assigned to project P1
-Student A114 assigned to project P24
-Student A185 assigned to project P5
-Student A107 assigned to project P41
-Student A55 assigned to project P35
-Student A117 assigned to project P7
-Student A56 assigned to project P36
-Student A41 assigned to project P14 and student A43 was removed
-Student A43 assigned to project P5
-Student A93 assigned to project P26
-Student A92 assigned to project P36
-Student A111 assigned to project P34
-Student A2 assigned to project P1
-Student A84 assigned to project P40 and student A26 was removed
-Student A26 assigned to project P55
-Student A149 assigned to project P29
-Student A177 assigned to project P21 and student A145 was removed
-Student A143 assigned to project P14 and student A131 was removed
-Student A197 assigned to project P41 and student A47 was removed
-Student A47 assigned to project P3
-Student A35 assigned to project P5 and student A185 was removed
-Student A174 assigned to project P34 and student A111 was removed
-Student A62 assigned to project P27
-Student A104 assigned to project P25
-Student A127 assigned to project P28
-Student A24 assigned to project P10 and student A170 was removed
-Student A81 assigned to project P27 and student A62 was removed
-Student A62 assigned to project P8
-Student A22 assigned to project P18 and student A17 was removed
-Student A18 assigned to project P8 and student A62 was removed
-Student A63 assigned to project P39
-Student A8 assigned to project P6
+Student A24 assigned to project P10
+Student A27 assigned to project P41
 Student A31 assigned to project P12
 Student A32 assigned to project P2
-Student A98 assigned to project P47
 Student A33 assigned to project P3
+Student A34 assigned to project P4
+Student A35 assigned to project P5
+Student A41 assigned to project P14
 Student A42 assigned to project P16
-Student A64 assigned to project P30 and student A164 was removed
-Student A199 assigned to project P49
-Student A61 assigned to project P17 and student A181 was removed
+Student A46 assigned to project P43
+Student A48 assigned to project P26
+Student A55 assigned to project P35
+Student A56 assigned to project P36
+Student A60 assigned to project P53
+Student A61 assigned to project P37
+Student A62 assigned to project P38
+Student A63 assigned to project P39
+Student A64 assigned to project P30
+Student A68 assigned to project P36
+Student A81 assigned to project P27
+Student A83 assigned to project P27
+Student A85 assigned to project P5
+Student A91 assigned to project P24
+Student A93 assigned to project P26
+Student A107 assigned to project P41 and student A7 was removed
+Student A117 assigned to project P7
+Student A127 assigned to project P28
+Student A135 assigned to project P15
+Student A144 assigned to project P22
+Student A145 assigned to project P21
+Student A155 assigned to project P45
+Student A174 assigned to project P34
+Student A187 assigned to project P7
+Student A188 assigned to project P8
+Student A197 assigned to project P41 and student A27 was removed
+Student A4 assigned to project P3
+Student A26 assigned to project P9
+Student A43 assigned to project P14
+Student A52 assigned to project P20
+Student A58 assigned to project P47
+Student A69 assigned to project P29
+Student A84 assigned to project P40 and student A6 was removed
 Student A95 assigned to project P53
+Student A100 assigned to project P3 and student A4 was removed
+Student A137 assigned to project P21 and student A145 was removed
+Student A161 assigned to project P17
+Student A200 assigned to project P10 and student A24 was removed
+Student A14 assigned to project P15
 Student A82 assigned to project P44
 Student A96 assigned to project P51
-Student A85 assigned to project P5 and student A43 was removed
+Student A104 assigned to project P25
+Student A157 assigned to project P18 and student A22 was removed
+Student A159 assigned to project P49
+
+2-th iteration
+Student A145 assigned to project P21
+Student A188 assigned to project P8
+Student A32 assigned to project P2
+Student A97 assigned to project P41
+Student A168 assigned to project P36
+Student A137 assigned to project P37
+Student A175 assigned to project P35
+Student A91 assigned to project P24
+Student A196 assigned to project P43
+Student A33 assigned to project P3
+Student A24 assigned to project P10
+Student A63 assigned to project P39
+Student A56 assigned to project P36
+Student A164 assigned to project P30
+Student A23 assigned to project P9
+Student A64 assigned to project P30 and student A164 was removed
+Student A22 assigned to project P18
+Student A174 assigned to project P34
+Student A8 assigned to project P6
+Student A98 assigned to project P26
+Student A107 assigned to project P41
+Student A41 assigned to project P14
+Student A117 assigned to project P7
+Student A6 assigned to project P40
+Student A34 assigned to project P4
+Student A31 assigned to project P12
+Student A60 assigned to project P53
+Student A18 assigned to project P8
+Student A48 assigned to project P26
+Student A62 assigned to project P38
+Student A83 assigned to project P27
+Student A81 assigned to project P27
+Student A200 assigned to project P1
+Student A144 assigned to project P22
+Student A197 assigned to project P41 and student A97 was removed
+Student A85 assigned to project P5
+Student A187 assigned to project P7
+Student A185 assigned to project P5
+Student A1 assigned to project P1
+Student A42 assigned to project P16
+Student A155 assigned to project P45
+Student A135 assigned to project P15
+Student A35 assigned to project P5 and student A185 was removed
+Student A127 assigned to project P28
+Student A181 assigned to project P17
+Student A149 assigned to project P29
+Student A72 assigned to project P20
+Student A58 assigned to project P47
+Student A4 assigned to project P3
+Student A177 assigned to project P21 and student A145 was removed
+Student A143 assigned to project P14
+Student A66 assigned to project P9
+Student A95 assigned to project P53
+Student A84 assigned to project P40 and student A6 was removed
+Student A61 assigned to project P17 and student A181 was removed
+Student A100 assigned to project P3 and student A4 was removed
+Student A134 assigned to project P25
+Student A44 assigned to project P15
+Student A199 assigned to project P49
+Student A96 assigned to project P51
+Student A157 assigned to project P18 and student A22 was removed
+Student A2 assigned to project P51 and student A96 was removed
+Student A82 assigned to project P44
+Student A26 assigned to project P55
+
+3-th iteration
+Student A97 assigned to project P41
+Student A177 assigned to project P37
+Student A63 assigned to project P39
+Student A56 assigned to project P36
+Student A145 assigned to project P21
+Student A7 assigned to project P41
+Student A81 assigned to project P27
+Student A175 assigned to project P35
+Student A6 assigned to project P40
+Student A168 assigned to project P36
+Student A144 assigned to project P22
+Student A32 assigned to project P2
+Student A164 assigned to project P30
+Student A62 assigned to project P38
+Student A191 assigned to project P24
+Student A42 assigned to project P16
+Student A200 assigned to project P1
+Student A35 assigned to project P5
+Student A142 assigned to project P26
+Student A127 assigned to project P28
+Student A143 assigned to project P26
+Student A85 assigned to project P5
+Student A46 assigned to project P43
+Student A24 assigned to project P10
+Student A23 assigned to project P9
+Student A2 assigned to project P1
+Student A83 assigned to project P27
+Student A8 assigned to project P6
+Student A84 assigned to project P4
+Student A135 assigned to project P15
+Student A188 assigned to project P8
+Student A18 assigned to project P8
+Student A197 assigned to project P41 and student A97 was removed
+Student A117 assigned to project P7
+Student A41 assigned to project P14
+Student A107 assigned to project P41 and student A7 was removed
+Student A22 assigned to project P18
+Student A174 assigned to project P34
+Student A155 assigned to project P45
+Student A33 assigned to project P3
+Student A31 assigned to project P12
+Student A64 assigned to project P30 and student A164 was removed
+Student A60 assigned to project P53
+Student A187 assigned to project P7
+Student A169 assigned to project P29
+Student A172 assigned to project P20
+Student A99 assigned to project P9
+Student A147 assigned to project P3
+Student A158 assigned to project P47
+Student A100 assigned to project P3 and student A147 was removed
+Student A157 assigned to project P21 and student A145 was removed
+Student A43 assigned to project P14
+Student A95 assigned to project P53
+Student A161 assigned to project P17
+Student A34 assigned to project P40 and student A6 was removed
+Student A61 assigned to project P17 and student A161 was removed
+Student A104 assigned to project P25
+Student A114 assigned to project P15
+Student A159 assigned to project P49
+Student A26 assigned to project P55
+Student A82 assigned to project P44
+Student A96 assigned to project P51
 Student A1 assigned to project P50
 
 4-th iteration
-Student A100 assigned to project P38
-Student A172 assigned to project P20
-Student A191 assigned to project P24
-Student A199 assigned to project P49
 Student A177 assigned to project P37
-Student A81 assigned to project P27
-Student A64 assigned to project P30
-Student A185 assigned to project P5
-Student A47 assigned to project P41
-Student A42 assigned to project P16
-Student A22 assigned to project P18
-Student A94 assigned to project P3
 Student A144 assigned to project P22
-Student A66 assigned to project P9
-Student A99 assigned to project P9
-Student A98 assigned to project P26
-Student A31 assigned to project P12
-Student A50 assigned to project P43
-Student A56 assigned to project P36
-Student A153 assigned to project P43 and student A50 was removed
-Student A50 assigned to project P10
-Student A84 assigned to project P4
-Student A44 assigned to project P3
-Student A91 assigned to project P34
-Student A68 assigned to project P36
-Student A97 assigned to project P41
-Student A87 assigned to project P21
-Student A143 assigned to project P26
-Student A147 assigned to project P21 and student A87 was removed
-Student A151 assigned to project P14
-Student A83 assigned to project P27
-Student A148 assigned to project P28
-Student A175 assigned to project P35
-Student A93 assigned to project P14
-Student A156 assigned to project P40
-Student A200 assigned to project P1
-Student A6 assigned to project P40 and student A156 was removed
-Student A183 assigned to project P5
-Student A169 assigned to project P29
-Student A114 assigned to project P15
-Student A53 assigned to project P45
-Student A95 assigned to project P53
-Student A137 assigned to project P21 and student A147 was removed
-Student A155 assigned to project P45 and student A53 was removed
-Student A14 assigned to project P15
-Student A96 assigned to project P47
-Student A157 assigned to project P18 and student A22 was removed
-Student A111 assigned to project P34 and student A91 was removed
-Student A197 assigned to project P41 and student A47 was removed
 Student A82 assigned to project P2
+Student A142 assigned to project P26
+Student A106 assigned to project P40
+Student A98 assigned to project P26
+Student A33 assigned to project P3
+Student A96 assigned to project P43
+Student A145 assigned to project P21
+Student A1 assigned to project P1
 Student A117 assigned to project P7
-Student A24 assigned to project P10 and student A50 was removed
-Student A60 assigned to project P53
-Student A23 assigned to project P9 and student A66 was removed
-Student A135 assigned to project P15 and student A114 was removed
-Student A161 assigned to project P17
-Student A63 assigned to project P39
-Student A104 assigned to project P25
-Student A35 assigned to project P5 and student A185 was removed
-Student A174 assigned to project P34 and student A111 was removed
+Student A97 assigned to project P41
+Student A62 assigned to project P38
+Student A64 assigned to project P30
+Student A7 assigned to project P41
+Student A55 assigned to project P35
 Student A188 assigned to project P8
-Student A2 assigned to project P1
-Student A33 assigned to project P3 and student A94 was removed
-Student A32 assigned to project P20 and student A172 was removed
-Student A43 assigned to project P14 and student A151 was removed
-Student A26 assigned to project P55
-Student A34 assigned to project P40 and student A6 was removed
 Student A107 assigned to project P41 and student A97 was removed
-Student A61 assigned to project P17 and student A161 was removed
+Student A31 assigned to project P12
+Student A197 assigned to project P41 and student A7 was removed
+Student A41 assigned to project P14
 Student A18 assigned to project P8
-Student A187 assigned to project P7
-Student A127 assigned to project P28 and student A148 was removed
+Student A91 assigned to project P24
+Student A168 assigned to project P36
+Student A83 assigned to project P27
 Student A8 assigned to project P6
-Student A1 assigned to project P50
-Student A85 assigned to project P5 and student A183 was removed
-Student A41 assigned to project P14 and student A93 was removed
+Student A84 assigned to project P4
+Student A42 assigned to project P16
+Student A187 assigned to project P7
+Student A24 assigned to project P10
+Student A68 assigned to project P36
+Student A2 assigned to project P1
+Student A127 assigned to project P28
+Student A81 assigned to project P27
+Student A63 assigned to project P39
+Student A23 assigned to project P9
+Student A174 assigned to project P34
+Student A135 assigned to project P15
+Student A22 assigned to project P18
+Student A85 assigned to project P5
+Student A60 assigned to project P53
+Student A185 assigned to project P5
+Student A35 assigned to project P5 and student A185 was removed
+Student A155 assigned to project P45
+Student A69 assigned to project P29
+Student A72 assigned to project P20
+Student A58 assigned to project P47
+Student A137 assigned to project P21 and student A145 was removed
+Student A26 assigned to project P9
+Student A61 assigned to project P17
+Student A143 assigned to project P14
+Student A147 assigned to project P3
+Student A32 assigned to project P20 and student A72 was removed
+Student A95 assigned to project P53
+Student A100 assigned to project P3 and student A147 was removed
+Student A34 assigned to project P40 and student A106 was removed
+Student A200 assigned to project P10 and student A24 was removed
+Student A159 assigned to project P49
+Student A184 assigned to project P25
+Student A14 assigned to project P15
+Student A157 assigned to project P18 and student A22 was removed
 
 5-th iteration
-Student A154 assigned to project P40
-Student A117 assigned to project P7
-Student A61 assigned to project P37
-Student A158 assigned to project P47
-Student A57 assigned to project P21
-Student A56 assigned to project P36
-Student A149 assigned to project P29
-Student A114 assigned to project P24
-Student A168 assigned to project P36
-Student A85 assigned to project P5
-Student A23 assigned to project P9
-Student A55 assigned to project P35
-Student A41 assigned to project P14
-Student A62 assigned to project P38
-Student A84 assigned to project P4
+Student A141 assigned to project P24
 Student A164 assigned to project P30
-Student A135 assigned to project P15
-Student A184 assigned to project P25
-Student A81 assigned to project P27
-Student A169 assigned to project P9
-Student A52 assigned to project P20
-Student A7 assigned to project P41
-Student A93 assigned to project P26
-Student A73 assigned to project P45
-Student A10 assigned to project P43
-Student A44 assigned to project P3
-Student A96 assigned to project P43 and student A10 was removed
-Student A10 assigned to project P10
-Student A151 assigned to project P14
-Student A6 assigned to project P40 and student A154 was removed
-Student A154 assigned to project P15
-Student A97 assigned to project P41
-Student A100 assigned to project P3
-Student A26 assigned to project P9 and student A169 was removed
-Student A95 assigned to project P53
-Student A107 assigned to project P41 and student A7 was removed
-Student A161 assigned to project P17
-Student A143 assigned to project P26
-Student A22 assigned to project P18
-Student A155 assigned to project P45 and student A73 was removed
-Student A137 assigned to project P21 and student A57 was removed
-Student A111 assigned to project P34
-Student A197 assigned to project P41 and student A97 was removed
-Student A4 assigned to project P5
-Student A185 assigned to project P5 and student A4 was removed
 Student A144 assigned to project P22
-Student A42 assigned to project P16
-Student A33 assigned to project P3 and student A44 was removed
-Student A34 assigned to project P40 and student A6 was removed
-Student A199 assigned to project P49
-Student A63 assigned to project P39
-Student A58 assigned to project P28
 Student A2 assigned to project P1
-Student A177 assigned to project P18 and student A22 was removed
-Student A24 assigned to project P10 and student A10 was removed
-Student A187 assigned to project P7
-Student A174 assigned to project P34 and student A111 was removed
-Student A18 assigned to project P8
-Student A83 assigned to project P27
-Student A31 assigned to project P12
-Student A35 assigned to project P5 and student A185 was removed
-Student A127 assigned to project P28 and student A58 was removed
-Student A43 assigned to project P14 and student A151 was removed
+Student A106 assigned to project P40
+Student A23 assigned to project P9
 Student A32 assigned to project P2
-Student A82 assigned to project P44
-Student A64 assigned to project P30 and student A164 was removed
-Student A200 assigned to project P1
+Student A142 assigned to project P26
+Student A18 assigned to project P8
+Student A174 assigned to project P34
+Student A97 assigned to project P41
+Student A153 assigned to project P43
+Student A1 assigned to project P1
 Student A60 assigned to project P53
-Student A1 assigned to project P50
-Student A8 assigned to project P6
+Student A137 assigned to project P37
+Student A187 assigned to project P7
+Student A155 assigned to project P45
+Student A81 assigned to project P27
+Student A41 assigned to project P14
 Student A188 assigned to project P8
+Student A27 assigned to project P41
+Student A143 assigned to project P26
+Student A68 assigned to project P36
+Student A128 assigned to project P36
+Student A175 assigned to project P35
+Student A147 assigned to project P21
+Student A127 assigned to project P28
+Student A107 assigned to project P41 and student A97 was removed
+Student A62 assigned to project P38
+Student A117 assigned to project P7
+Student A83 assigned to project P27
+Student A135 assigned to project P15
+Student A42 assigned to project P16
+Student A8 assigned to project P6
+Student A185 assigned to project P5
+Student A85 assigned to project P5
+Student A197 assigned to project P41 and student A27 was removed
+Student A84 assigned to project P4
+Student A64 assigned to project P30 and student A164 was removed
+Student A63 assigned to project P39
+Student A22 assigned to project P18
+Student A35 assigned to project P5 and student A185 was removed
+Student A24 assigned to project P10
+Student A31 assigned to project P12
+Student A33 assigned to project P3
+Student A129 assigned to project P29
+Student A94 assigned to project P3
+Student A161 assigned to project P17
+Student A132 assigned to project P20
+Student A177 assigned to project P21 and student A147 was removed
+Student A200 assigned to project P10 and student A24 was removed
+Student A99 assigned to project P9
+Student A58 assigned to project P47
+Student A61 assigned to project P17 and student A161 was removed
+Student A95 assigned to project P53
+Student A100 assigned to project P3 and student A94 was removed
+Student A34 assigned to project P40 and student A106 was removed
+Student A43 assigned to project P14
+Student A134 assigned to project P25
+Student A82 assigned to project P44
+Student A26 assigned to project P55
+Student A159 assigned to project P49
+Student A157 assigned to project P18 and student A22 was removed
+Student A44 assigned to project P15
+Student A96 assigned to project P51
 
 6-th iteration
-Student A32 assigned to project P2
-Student A7 assigned to project P41
-Student A145 assigned to project P21
-Student A141 assigned to project P24
-Student A93 assigned to project P26
-Student A128 assigned to project P36
-Student A41 assigned to project P14
-Student A100 assigned to project P38
-Student A131 assigned to project P14
-Student A156 assigned to project P40
-Student A158 assigned to project P47
-Student A98 assigned to project P26
-Student A110 assigned to project P10
-Student A58 assigned to project P28
-Student A163 assigned to project P29
-Student A23 assigned to project P9
-Student A44 assigned to project P3
-Student A1 assigned to project P1
-Student A27 assigned to project P41
-Student A95 assigned to project P53
-Student A55 assigned to project P35
-Student A196 assigned to project P43
-Student A94 assigned to project P3
-Student A26 assigned to project P40 and student A156 was removed
-Student A153 assigned to project P30
-Student A142 assigned to project P18
-Student A183 assigned to project P5
-Student A191 assigned to project P22
-Student A61 assigned to project P37
-Student A82 assigned to project P27
-Student A22 assigned to project P18 and student A142 was removed
-Student A160 assigned to project P30 and student A153 was removed
-Student A153 assigned to project P45
-Student A62 assigned to project P27
-Student A42 assigned to project P16
-Student A81 assigned to project P27 and student A82 was removed
-Student A82 assigned to project P44
-Student A187 assigned to project P7
-Student A117 assigned to project P7
-Student A199 assigned to project P49
-Student A181 assigned to project P17
-Student A144 assigned to project P22 and student A191 was removed
-Student A191 assigned to project P34
-Student A172 assigned to project P20
-Student A188 assigned to project P8
-Student A200 assigned to project P1
-Student A177 assigned to project P21 and student A145 was removed
-Student A169 assigned to project P9
-Student A2 assigned to project P30 and student A160 was removed
-Student A160 assigned to project P34 and student A191 was removed
-Student A66 assigned to project P9 and student A169 was removed
-Student A104 assigned to project P25
-Student A96 assigned to project P51
+Student A114 assigned to project P24
+Student A174 assigned to project P34
 Student A8 assigned to project P6
-Student A114 assigned to project P15
-Student A168 assigned to project P36
+Student A64 assigned to project P30
+Student A47 assigned to project P41
 Student A60 assigned to project P53
-Student A155 assigned to project P45 and student A153 was removed
-Student A185 assigned to project P5
-Student A33 assigned to project P3 and student A44 was removed
-Student A44 assigned to project P15
-Student A64 assigned to project P30 and student A2 was removed
-Student A2 assigned to project P51 and student A96 was removed
-Student A31 assigned to project P12
-Student A85 assigned to project P5 and student A183 was removed
-Student A24 assigned to project P10 and student A110 was removed
-Student A107 assigned to project P41 and student A7 was removed
-Student A63 assigned to project P39
-Student A35 assigned to project P5 and student A185 was removed
+Student A18 assigned to project P8
+Student A2 assigned to project P1
+Student A93 assigned to project P26
+Student A144 assigned to project P22
+Student A117 assigned to project P7
+Student A23 assigned to project P9
+Student A127 assigned to project P28
+Student A96 assigned to project P43
+Student A26 assigned to project P40
+Student A100 assigned to project P38
+Student A48 assigned to project P26
+Student A33 assigned to project P3
+Student A135 assigned to project P15
+Student A22 assigned to project P18
+Student A41 assigned to project P14
+Student A145 assigned to project P21
+Student A7 assigned to project P41
+Student A56 assigned to project P36
+Student A137 assigned to project P37
+Student A24 assigned to project P10
+Student A92 assigned to project P36
+Student A155 assigned to project P45
+Student A200 assigned to project P1
 Student A84 assigned to project P4
-Student A174 assigned to project P34 and student A160 was removed
+Student A107 assigned to project P41 and student A47 was removed
+Student A188 assigned to project P8
+Student A185 assigned to project P5
+Student A83 assigned to project P27
+Student A82 assigned to project P2
+Student A81 assigned to project P27
+Student A42 assigned to project P16
+Student A63 assigned to project P39
+Student A31 assigned to project P12
+Student A175 assigned to project P35
+Student A35 assigned to project P5
+Student A197 assigned to project P41 and student A7 was removed
+Student A187 assigned to project P7
+Student A85 assigned to project P5 and student A185 was removed
+Student A181 assigned to project P17
+Student A43 assigned to project P14
+Student A4 assigned to project P3
+Student A172 assigned to project P20
+Student A99 assigned to project P9
+Student A149 assigned to project P29
+Student A157 assigned to project P21 and student A145 was removed
+Student A58 assigned to project P47
+Student A95 assigned to project P53
+Student A32 assigned to project P20 and student A172 was removed
+Student A61 assigned to project P17 and student A181 was removed
 Student A34 assigned to project P40 and student A26 was removed
+Student A134 assigned to project P25
+Student A14 assigned to project P15
+Student A1 assigned to project P50
+Student A199 assigned to project P49
+Student A177 assigned to project P18 and student A22 was removed
 Student A26 assigned to project P55
-Student A135 assigned to project P15 and student A114 was removed
-Student A143 assigned to project P14 and student A131 was removed
-Student A83 assigned to project P27 and student A62 was removed
-Student A62 assigned to project P8
-Student A18 assigned to project P8 and student A62 was removed
-Student A137 assigned to project P28 and student A58 was removed
-Student A197 assigned to project P41 and student A27 was removed
-Student A157 assigned to project P18 and student A22 was removed
-Student A127 assigned to project P28 and student A137 was removed
 
 7-th iteration
-Student A82 assigned to project P2
-Student A130 assigned to project P43
-Student A4 assigned to project P3
-Student A169 assigned to project P29
-Student A73 assigned to project P30
-Student A8 assigned to project P6
-Student A110 assigned to project P10
-Student A1 assigned to project P1
-Student A197 assigned to project P41
-Student A158 assigned to project P47
-Student A56 assigned to project P36
-Student A135 assigned to project P15
-Student A44 assigned to project P3
-Student A132 assigned to project P20
-Student A164 assigned to project P30 and student A73 was removed
-Student A73 assigned to project P45
-Student A43 assigned to project P14
-Student A48 assigned to project P26
-Student A68 assigned to project P36
-Student A32 assigned to project P20 and student A132 was removed
-Student A132 assigned to project P24
-Student A174 assigned to project P34
-Student A23 assigned to project P9
-Student A107 assigned to project P41
-Student A42 assigned to project P16
-Student A155 assigned to project P45 and student A73 was removed
-Student A6 assigned to project P40
-Student A154 assigned to project P15
-Student A196 assigned to project P43 and student A130 was removed
-Student A93 assigned to project P26
-Student A33 assigned to project P3 and student A4 was removed
-Student A4 assigned to project P5
-Student A69 assigned to project P9
-Student A24 assigned to project P10 and student A110 was removed
-Student A66 assigned to project P9 and student A69 was removed
-Student A55 assigned to project P35
-Student A17 assigned to project P21
-Student A181 assigned to project P17
-Student A127 assigned to project P28
-Student A104 assigned to project P25
-Student A187 assigned to project P7
-Student A22 assigned to project P18
-Student A61 assigned to project P37
+Student A66 assigned to project P30
 Student A41 assigned to project P14
-Student A95 assigned to project P53
-Student A160 assigned to project P5
-Student A117 assigned to project P7
-Student A64 assigned to project P30 and student A164 was removed
-Student A31 assigned to project P12
-Student A200 assigned to project P1
-Student A145 assigned to project P21 and student A17 was removed
-Student A2 assigned to project P51
-Student A81 assigned to project P27
-Student A137 assigned to project P21 and student A145 was removed
-Student A60 assigned to project P53
-Student A84 assigned to project P4
-Student A26 assigned to project P55
-Student A188 assigned to project P8
-Student A85 assigned to project P5 and student A4 was removed
-Student A35 assigned to project P5 and student A160 was removed
-Student A114 assigned to project P24 and student A132 was removed
-Student A177 assigned to project P18 and student A22 was removed
-Student A63 assigned to project P39
-Student A199 assigned to project P49
-Student A144 assigned to project P22
-Student A34 assigned to project P40 and student A6 was removed
-Student A62 assigned to project P38
+Student A175 assigned to project P35
+Student A56 assigned to project P36
+Student A7 assigned to project P41
+Student A96 assigned to project P43
 Student A18 assigned to project P8
-Student A100 assigned to project P3 and student A44 was removed
+Student A143 assigned to project P26
+Student A97 assigned to project P41
 Student A83 assigned to project P27
+Student A117 assigned to project P7
+Student A187 assigned to project P7
+Student A32 assigned to project P2
+Student A24 assigned to project P10
+Student A42 assigned to project P16
+Student A142 assigned to project P26
+Student A177 assigned to project P37
+Student A174 assigned to project P34
+Student A145 assigned to project P21
+Student A144 assigned to project P22
+Student A60 assigned to project P53
+Student A141 assigned to project P24
+Student A6 assigned to project P40
+Student A33 assigned to project P3
+Student A81 assigned to project P27
+Student A128 assigned to project P36
+Student A22 assigned to project P18
+Student A84 assigned to project P4
+Student A127 assigned to project P28
+Student A188 assigned to project P8
+Student A31 assigned to project P12
+Student A1 assigned to project P1
+Student A85 assigned to project P5
+Student A107 assigned to project P41 and student A7 was removed
+Student A35 assigned to project P5
+Student A197 assigned to project P41 and student A97 was removed
+Student A2 assigned to project P1
+Student A135 assigned to project P15
+Student A155 assigned to project P45
+Student A8 assigned to project P6
+Student A23 assigned to project P9
+Student A63 assigned to project P39
+Student A62 assigned to project P38
+Student A64 assigned to project P30 and student A66 was removed
+Student A158 assigned to project P47
+Student A172 assigned to project P20
+Student A163 assigned to project P29
+Student A99 assigned to project P9
+Student A94 assigned to project P3
+Student A61 assigned to project P17
+Student A43 assigned to project P14
+Student A137 assigned to project P21 and student A145 was removed
+Student A95 assigned to project P53
+Student A34 assigned to project P40 and student A6 was removed
+Student A200 assigned to project P10 and student A24 was removed
+Student A100 assigned to project P3 and student A94 was removed
+Student A199 assigned to project P49
+Student A114 assigned to project P15
+Student A104 assigned to project P25
+Student A157 assigned to project P18 and student A22 was removed
+Student A82 assigned to project P44
+Student A26 assigned to project P55
 
 8-th iteration
-Student A56 assigned to project P36
-Student A150 assigned to project P43
-Student A97 assigned to project P41
-Student A141 assigned to project P24
-Student A116 assigned to project P40
-Student A96 assigned to project P43 and student A150 was removed
-Student A150 assigned to project P10
+Student A23 assigned to project P9
 Student A41 assigned to project P14
-Student A52 assigned to project P20
-Student A171 assigned to project P21
-Student A69 assigned to project P29
-Student A73 assigned to project P30
-Student A147 assigned to project P21 and student A171 was removed
-Student A185 assigned to project P5
-Student A142 assigned to project P26
-Student A6 assigned to project P40 and student A116 was removed
-Student A64 assigned to project P30 and student A73 was removed
-Student A73 assigned to project P45
-Student A94 assigned to project P3
-Student A85 assigned to project P5
-Student A14 assigned to project P15
-Student A44 assigned to project P3
-Student A104 assigned to project P25
-Student A91 assigned to project P34
-Student A160 assigned to project P34 and student A91 was removed
-Student A154 assigned to project P15
-Student A188 assigned to project P8
-Student A43 assigned to project P14
-Student A148 assigned to project P28
-Student A133 assigned to project P35
-Student A128 assigned to project P36
-Student A174 assigned to project P34 and student A160 was removed
-Student A47 assigned to project P41
-Student A137 assigned to project P37
-Student A48 assigned to project P26
-Student A197 assigned to project P41 and student A97 was removed
-Student A107 assigned to project P41 and student A47 was removed
-Student A32 assigned to project P2
-Student A99 assigned to project P9
-Student A35 assigned to project P5 and student A185 was removed
-Student A135 assigned to project P15 and student A14 was removed
-Student A60 assigned to project P53
-Student A191 assigned to project P22
-Student A169 assigned to project P9
-Student A62 assigned to project P38
-Student A33 assigned to project P3 and student A94 was removed
-Student A82 assigned to project P27
-Student A100 assigned to project P3 and student A44 was removed
-Student A26 assigned to project P9 and student A169 was removed
-Student A175 assigned to project P35 and student A133 was removed
-Student A181 assigned to project P17
-Student A117 assigned to project P7
-Student A42 assigned to project P16
-Student A98 assigned to project P47
-Student A84 assigned to project P4
-Student A1 assigned to project P1
-Student A34 assigned to project P40 and student A6 was removed
-Student A177 assigned to project P21 and student A147 was removed
-Student A17 assigned to project P18
-Student A18 assigned to project P8
-Student A127 assigned to project P28 and student A148 was removed
+Student A24 assigned to project P10
+Student A91 assigned to project P24
+Student A135 assigned to project P15
 Student A81 assigned to project P27
-Student A31 assigned to project P12
-Student A155 assigned to project P45 and student A73 was removed
-Student A144 assigned to project P22 and student A191 was removed
-Student A23 assigned to project P9 and student A99 was removed
-Student A200 assigned to project P1
-Student A83 assigned to project P27 and student A82 was removed
-Student A82 assigned to project P44
-Student A61 assigned to project P17 and student A181 was removed
-Student A95 assigned to project P53
-Student A199 assigned to project P49
-Student A24 assigned to project P10 and student A150 was removed
-Student A157 assigned to project P18 and student A17 was removed
+Student A1 assigned to project P1
+Student A83 assigned to project P27
+Student A68 assigned to project P36
+Student A96 assigned to project P43
 Student A187 assigned to project P7
-Student A63 assigned to project P39
-Student A2 assigned to project P51
+Student A168 assigned to project P36
+Student A35 assigned to project P5
+Student A66 assigned to project P30
+Student A6 assigned to project P40
 Student A8 assigned to project P6
+Student A174 assigned to project P34
+Student A127 assigned to project P28
+Student A2 assigned to project P1
+Student A82 assigned to project P2
+Student A142 assigned to project P26
+Student A33 assigned to project P3
+Student A55 assigned to project P35
+Student A48 assigned to project P26
+Student A34 assigned to project P4
+Student A144 assigned to project P22
+Student A31 assigned to project P12
+Student A117 assigned to project P7
+Student A197 assigned to project P41
+Student A188 assigned to project P8
+Student A64 assigned to project P30 and student A66 was removed
+Student A177 assigned to project P37
+Student A155 assigned to project P45
+Student A7 assigned to project P41
+Student A62 assigned to project P38
+Student A147 assigned to project P21
+Student A42 assigned to project P16
+Student A18 assigned to project P8
+Student A85 assigned to project P5
+Student A22 assigned to project P18
+Student A63 assigned to project P39
+Student A107 assigned to project P41 and student A7 was removed
+Student A60 assigned to project P53
+Student A95 assigned to project P53
+Student A149 assigned to project P29
+Student A4 assigned to project P3
+Student A52 assigned to project P20
+Student A43 assigned to project P14
+Student A158 assigned to project P47
+Student A66 assigned to project P9
+Student A32 assigned to project P20 and student A52 was removed
+Student A181 assigned to project P17
+Student A84 assigned to project P40 and student A6 was removed
+Student A100 assigned to project P3 and student A4 was removed
+Student A137 assigned to project P21 and student A147 was removed
+Student A200 assigned to project P10 and student A24 was removed
+Student A61 assigned to project P17 and student A181 was removed
+Student A104 assigned to project P25
+Student A199 assigned to project P49
+Student A14 assigned to project P15
+Student A26 assigned to project P55
+Student A157 assigned to project P18 and student A22 was removed
 
 9-th iteration
-Student A47 assigned to project P41
-Student A2 assigned to project P1
-Student A23 assigned to project P9
-Student A183 assigned to project P30
-Student A4 assigned to project P3
-Student A163 assigned to project P29
+Student A66 assigned to project P30
 Student A1 assigned to project P1
-Student A181 assigned to project P17
-Student A99 assigned to project P9
-Student A96 assigned to project P43
-Student A177 assigned to project P37
-Student A175 assigned to project P35
-Student A152 assigned to project P20
-Student A95 assigned to project P53
-Student A150 assigned to project P10
-Student A154 assigned to project P40
-Student A148 assigned to project P28
-Student A117 assigned to project P7
-Student A107 assigned to project P41
-Student A37 assigned to project P21
-Student A106 assigned to project P40 and student A154 was removed
-Student A154 assigned to project P15
-Student A147 assigned to project P21 and student A37 was removed
-Student A191 assigned to project P24
-Student A137 assigned to project P21 and student A147 was removed
-Student A147 assigned to project P3
-Student A41 assigned to project P14
-Student A35 assigned to project P5
-Student A68 assigned to project P36
-Student A184 assigned to project P25
-Student A61 assigned to project P17 and student A181 was removed
-Student A48 assigned to project P26
-Student A142 assigned to project P26
-Student A144 assigned to project P22
-Student A17 assigned to project P18
-Student A128 assigned to project P36
-Student A160 assigned to project P30 and student A183 was removed
-Student A183 assigned to project P5
-Student A159 assigned to project P49
-Student A143 assigned to project P14
-Student A98 assigned to project P47
-Student A34 assigned to project P4
-Student A33 assigned to project P3 and student A4 was removed
-Student A155 assigned to project P45
+Student A91 assigned to project P24
+Student A62 assigned to project P38
+Student A98 assigned to project P26
+Student A2 assigned to project P1
+Student A137 assigned to project P37
 Student A42 assigned to project P16
-Student A157 assigned to project P18 and student A17 was removed
-Student A18 assigned to project P8
-Student A25 assigned to project P34
-Student A64 assigned to project P30 and student A160 was removed
-Student A160 assigned to project P34 and student A25 was removed
-Student A81 assigned to project P27
-Student A200 assigned to project P10 and student A150 was removed
-Student A100 assigned to project P38
-Student A82 assigned to project P2
-Student A187 assigned to project P7
-Student A62 assigned to project P27
-Student A197 assigned to project P41 and student A47 was removed
-Student A84 assigned to project P40 and student A106 was removed
-Student A188 assigned to project P8
-Student A185 assigned to project P5 and student A183 was removed
-Student A114 assigned to project P15
 Student A63 assigned to project P39
-Student A83 assigned to project P27 and student A62 was removed
-Student A174 assigned to project P34 and student A160 was removed
-Student A85 assigned to project P5 and student A185 was removed
-Student A26 assigned to project P55
-Student A127 assigned to project P28 and student A148 was removed
-Student A135 assigned to project P15 and student A154 was removed
-Student A31 assigned to project P12
+Student A18 assigned to project P8
+Student A147 assigned to project P21
+Student A196 assigned to project P43
+Student A175 assigned to project P35
+Student A168 assigned to project P36
+Student A143 assigned to project P26
+Student A85 assigned to project P5
+Student A24 assigned to project P10
+Student A7 assigned to project P41
+Student A6 assigned to project P40
+Student A64 assigned to project P30 and student A66 was removed
+Student A97 assigned to project P41
 Student A8 assigned to project P6
-Student A32 assigned to project P20 and student A152 was removed
+Student A81 assigned to project P27
+Student A174 assigned to project P34
+Student A92 assigned to project P36
+Student A84 assigned to project P4
+Student A117 assigned to project P7
+Student A33 assigned to project P3
+Student A31 assigned to project P12
+Student A155 assigned to project P45
 Student A60 assigned to project P53
+Student A35 assigned to project P5
+Student A127 assigned to project P28
+Student A135 assigned to project P15
+Student A22 assigned to project P18
+Student A82 assigned to project P2
+Student A144 assigned to project P22
+Student A187 assigned to project P7
+Student A41 assigned to project P14
+Student A197 assigned to project P41 and student A7 was removed
+Student A83 assigned to project P27
+Student A107 assigned to project P41 and student A97 was removed
+Student A23 assigned to project P9
+Student A188 assigned to project P8
+Student A52 assigned to project P20
+Student A94 assigned to project P3
+Student A69 assigned to project P29
+Student A95 assigned to project P53
+Student A58 assigned to project P47
+Student A177 assigned to project P21 and student A147 was removed
+Student A66 assigned to project P9
+Student A61 assigned to project P17
+Student A93 assigned to project P14
+Student A34 assigned to project P40 and student A6 was removed
+Student A32 assigned to project P20 and student A52 was removed
+Student A200 assigned to project P10 and student A24 was removed
+Student A100 assigned to project P3 and student A94 was removed
+Student A114 assigned to project P15
+Student A134 assigned to project P25
+Student A96 assigned to project P51
+Student A199 assigned to project P49
+Student A26 assigned to project P55
+Student A157 assigned to project P18 and student A22 was removed
 
 10-th iteration
-Student A42 assigned to project P16
-Student A52 assigned to project P20
-Student A133 assigned to project P30
-Student A50 assigned to project P43
-Student A87 assigned to project P21
-Student A163 assigned to project P29
+Student A145 assigned to project P21
+Student A83 assigned to project P27
+Student A160 assigned to project P30
+Student A155 assigned to project P45
+Student A174 assigned to project P34
+Student A32 assigned to project P2
+Student A96 assigned to project P43
+Student A187 assigned to project P7
+Student A63 assigned to project P39
+Student A93 assigned to project P26
+Student A107 assigned to project P41
+Student A135 assigned to project P15
+Student A127 assigned to project P28
+Student A92 assigned to project P36
+Student A142 assigned to project P26
+Student A26 assigned to project P40
+Student A33 assigned to project P3
+Student A117 assigned to project P7
+Student A64 assigned to project P30 and student A160 was removed
+Student A175 assigned to project P35
 Student A7 assigned to project P41
-Student A145 assigned to project P21 and student A87 was removed
-Student A91 assigned to project P24
-Student A173 assigned to project P45
-Student A46 assigned to project P43 and student A50 was removed
-Student A50 assigned to project P10
-Student A161 assigned to project P17
+Student A128 assigned to project P36
+Student A2 assigned to project P1
+Student A157 assigned to project P37
+Student A185 assigned to project P5
+Student A41 assigned to project P14
+Student A100 assigned to project P38
+Student A1 assigned to project P1
+Student A191 assigned to project P24
+Student A35 assigned to project P5
+Student A22 assigned to project P18
+Student A197 assigned to project P41 and student A7 was removed
+Student A42 assigned to project P16
 Student A31 assigned to project P12
-Student A66 assigned to project P9
-Student A184 assigned to project P40
-Student A143 assigned to project P26
+Student A188 assigned to project P8
+Student A84 assigned to project P4
+Student A60 assigned to project P53
+Student A8 assigned to project P6
+Student A144 assigned to project P22
+Student A81 assigned to project P27
+Student A24 assigned to project P10
 Student A23 assigned to project P9
 Student A18 assigned to project P8
-Student A174 assigned to project P34
-Student A83 assigned to project P27
-Student A106 assigned to project P40 and student A184 was removed
-Student A184 assigned to project P25
-Student A94 assigned to project P3
-Student A183 assigned to project P5
-Student A64 assigned to project P30 and student A133 was removed
-Student A133 assigned to project P35
-Student A41 assigned to project P14
-Student A200 assigned to project P1
-Student A168 assigned to project P36
-Student A43 assigned to project P14
-Student A34 assigned to project P4
-Student A157 assigned to project P37
-Student A4 assigned to project P3
-Student A96 assigned to project P47
-Student A137 assigned to project P21 and student A145 was removed
-Student A175 assigned to project P35 and student A133 was removed
-Student A148 assigned to project P28
-Student A44 assigned to project P15
-Student A32 assigned to project P2
-Student A17 assigned to project P18
-Student A191 assigned to project P22
-Student A188 assigned to project P8
-Student A117 assigned to project P7
-Student A185 assigned to project P5
-Student A47 assigned to project P41
-Student A197 assigned to project P41 and student A7 was removed
-Student A68 assigned to project P36
-Student A85 assigned to project P5 and student A183 was removed
-Student A199 assigned to project P49
-Student A24 assigned to project P10 and student A50 was removed
-Student A1 assigned to project P1
-Student A98 assigned to project P26
-Student A63 assigned to project P39
-Student A84 assigned to project P40 and student A106 was removed
-Student A144 assigned to project P22 and student A191 was removed
-Student A81 assigned to project P27
-Student A14 assigned to project P15
-Student A100 assigned to project P38
-Student A35 assigned to project P5 and student A185 was removed
-Student A33 assigned to project P3 and student A94 was removed
-Student A127 assigned to project P28 and student A148 was removed
-Student A60 assigned to project P53
-Student A82 assigned to project P44
-Student A135 assigned to project P15 and student A44 was removed
-Student A155 assigned to project P45 and student A173 was removed
-Student A26 assigned to project P55
-Student A22 assigned to project P18 and student A17 was removed
-Student A187 assigned to project P7
-Student A107 assigned to project P41 and student A47 was removed
-Student A177 assigned to project P18 and student A22 was removed
+Student A85 assigned to project P5 and student A185 was removed
 Student A95 assigned to project P53
-Student A2 assigned to project P51
-Student A8 assigned to project P6
+Student A72 assigned to project P20
+Student A161 assigned to project P17
+Student A44 assigned to project P3
+Student A99 assigned to project P9
+Student A163 assigned to project P29
+Student A143 assigned to project P14
 Student A61 assigned to project P17 and student A161 was removed
+Student A58 assigned to project P47
+Student A177 assigned to project P21 and student A145 was removed
+Student A34 assigned to project P40 and student A26 was removed
+Student A200 assigned to project P10 and student A24 was removed
+Student A199 assigned to project P49
+Student A184 assigned to project P25
+Student A114 assigned to project P15
+Student A82 assigned to project P44
+Student A26 assigned to project P55
 
 In the final result, the maximum stable matching found was 56
 
 Project P1: ['A200', 'A2']
 Project P2: ['A32']
-Project P3: ['A47', 'A33']
-Project P4: ['A34']
+Project P3: ['A33', 'A100']
+Project P4: ['A84']
 Project P5: ['A35', 'A85']
 Project P6: ['A8']
-Project P7: ['A187', 'A117']
+Project P7: ['A117', 'A187']
 Project P8: ['A188', 'A18']
 Project P9: ['A23', 'A99']
 Project P10: ['A24']
 Project P11: []
 Project P12: ['A31']
 Project P13: []
-Project P14: ['A41', 'A143']
-Project P15: ['A135', 'A14']
+Project P14: ['A41', 'A43']
+Project P15: ['A135', 'A114']
 Project P16: ['A42']
 Project P17: ['A61']
 Project P18: ['A22']
 Project P19: []
-Project P20: ['A152']
-Project P21: ['A177']
+Project P20: ['A172']
+Project P21: ['A157']
 Project P22: ['A144']
 Project P23: []
-Project P24: ['A114']
+Project P24: ['A191']
 Project P25: ['A104']
-Project P26: ['A48', 'A93']
-Project P27: ['A83', 'A81']
+Project P26: ['A142', 'A143']
+Project P27: ['A81', 'A83']
 Project P28: ['A127']
-Project P29: ['A149']
+Project P29: ['A169']
 Project P30: ['A64']
 Project P31: []
 Project P32: []
 Project P33: []
 Project P34: ['A174']
-Project P35: ['A55']
-Project P36: ['A56', 'A92']
-Project P37: ['A157']
-Project P38: ['A100']
+Project P35: ['A175']
+Project P36: ['A56', 'A168']
+Project P37: ['A177']
+Project P38: ['A62']
 Project P39: ['A63']
-Project P40: ['A84']
-Project P41: ['A107', 'A197']
+Project P40: ['A34']
+Project P41: ['A197', 'A107']
 Project P42: []
-Project P43: ['A196']
+Project P43: ['A46']
 Project P44: ['A82']
 Project P45: ['A155']
 Project P46: []
-Project P47: ['A98']
+Project P47: ['A158']
 Project P48: []
-Project P49: ['A199']
+Project P49: ['A159']
 Project P50: ['A1']
 Project P51: ['A96']
 Project P52: []
